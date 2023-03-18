@@ -47,15 +47,19 @@ ul {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 0.5rem;
-  width: 90%;
+  /* padding: 0.5rem 0.5rem; */
+  /* width: 90%; */
   margin: auto;
-  position: fixed;
+  position: sticky;
   top: 0;
+  background: rgba(54, 54, 54, 0.6);
+  backdrop-filter: blur(3px);
+  padding: 0 2rem;
+  z-index: 999;
 }
 
 .logo {
-  width: 10%;
+  width: 7%;
 }
 
 .navbar {
@@ -176,10 +180,30 @@ li a:hover::after {
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin: auto;
   width: 80%;
+}
+
+.Read-btn{
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color:#b4bec8;
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem ;
+}
+
+.grid {
+  display: grid;
+}
+.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.gap-1 {
+  gap: 1rem;
 }
 
 .card {
@@ -209,6 +233,7 @@ li a:hover::after {
 /* Aboutus end  */
 
 /* hero start */
+
 .hero {
   min-height: 100vh;
   background: url("./assets/hero.png");
@@ -236,6 +261,29 @@ li a:hover::after {
   font-weight: 500;
   color: #f5f5f5;
 }
+
+.Hero-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  width: 100%;
+}
+
+.blinking {
+  font-size: 2.5rem;
+  animation: blink 1s linear infinite alternate;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* hero end */
 
 /* Information start */
@@ -250,6 +298,10 @@ li a:hover::after {
   gap: 2rem;
   position: relative;
   overflow: hidden;
+}
+
+.info-section div{
+margin-bottom: 2rem;
 }
 .p-bolder {
   font-weight: 500;
@@ -355,6 +407,7 @@ li a:hover::after {
 
 footer {
   background-color: #3e4551;
+  
 }
 
 .footer-container {
@@ -363,6 +416,9 @@ footer {
   align-items: center;
   gap: 7rem;
   padding: 2rem;
+  display: flex;
+  justify-content: center;
+
 }
 
 .footer-div {
@@ -482,7 +538,7 @@ footer {
 .about-image i {
   color: #ffd33c;
 }
-.box  .left-column .testi_heading span {
+.box .left-column .testi_heading span {
   color: #fff;
 }
 .box .testi_heading span {

@@ -9,7 +9,7 @@ const Register = () => {
                 </div>
                 <div className="right">
                     <form className="form">
-                        <h3 className="reg-now">Register Now </h3>
+                        <h3 className="reg-now">Connect Now </h3>
                         <div className="input-div">
                             <input type="text" placeholder=" Your Name" />
                         </div>
@@ -21,7 +21,7 @@ const Register = () => {
                         </div>
                         <div className="last-reg">
                             <p>"We will never share your personal info"</p>
-                            <button className="btn">Get a Quote</button>
+                            <button className="btn">Connect</button>
                         </div>
                     </form>
                 </div>
