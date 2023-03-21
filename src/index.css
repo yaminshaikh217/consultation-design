@@ -186,24 +186,48 @@ li a:hover::after {
   width: 80%;
 }
 
-.Read-btn{
+.card:hover {
+  background: #dcc966;
+  transition: all 0.2s linear;
+}
+
+.Icon {
+  background: white;
+  border: 2px solid rgba(220, 201, 102, 0.5);
+  border-radius: 50%;
+  padding: 2rem;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  display: grid;
+  place-items: center;
+  width: 9rem;
+  height: 9rem;
+}
+
+.card:hover .Read-btn {
+  background-color: black;
+  color: white;
+  transition: all 0.1s linear;
+}
+
+.Read-btn {
   padding: 0.5rem 1rem;
   cursor: pointer;
-  background-color:#b4bec8;
-  font-size: 2rem;
+  background-color: #dcc966;
+  color: black;
+  font-size: 1.6rem;
   font-weight: 500;
   border-radius: 0.5rem;
-  margin-top: 1.5rem ;
+  margin-top: 1.5rem;
 }
 
 .grid {
   display: grid;
 }
-.col-2 {
+.grid-col-2 {
   grid-template-columns: repeat(2, 1fr);
 }
 .gap-1 {
-  gap: 1rem;
+  gap: 1rem !important;
 }
 
 .card {
@@ -212,9 +236,9 @@ li a:hover::after {
   color: #000;
   text-align: center;
   font-size: 4rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
-  margin: 2rem 0;
+  align-items: center;
 }
 
 .card p {
@@ -228,6 +252,21 @@ li a:hover::after {
   font-size: 2.4rem;
   font-weight: 500;
   padding: 1.7;
+}
+.accordion {
+  background: var(--secondary-color);
+  overflow: hidden;
+}
+.accordion-button {
+  font-size: 3rem;
+  color: #dcc966;
+}
+.accordion-body {
+  font-size: 2rem;
+}
+.accordion-button::after {
+  position: absolute;
+  right: 4rem;
 }
 
 /* Aboutus end  */
@@ -300,8 +339,8 @@ li a:hover::after {
   overflow: hidden;
 }
 
-.info-section div{
-margin-bottom: 2rem;
+.info-section div {
+  margin-bottom: 2rem;
 }
 .p-bolder {
   font-weight: 500;
@@ -407,7 +446,6 @@ margin-bottom: 2rem;
 
 footer {
   background-color: #3e4551;
-  
 }
 
 .footer-container {
@@ -418,7 +456,6 @@ footer {
   padding: 2rem;
   display: flex;
   justify-content: center;
-
 }
 
 .footer-div {

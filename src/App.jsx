@@ -7,6 +7,9 @@ import Information from "./components/Information/Information"
 // import Register from "./components/Register/Register"
 import Footer from "./components/Footer/Footer"
 import Testimonial from "./components/Testimonial/Testimonial"
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.min.js"
+
 
 const App = () => {
   return (
@@ -16,10 +19,10 @@ const App = () => {
       <Hero />
       {/* <RequestConsaltation /> */}
       <Aboutus />
-      <Information/>
-      <Testimonial/>
+      <Information />
+      <Testimonial />
       {/* <Register/> */}
-      <Footer/>
+      <Footer />
     </>
   )
 }
