@@ -24,17 +24,21 @@ body {
   overflow-x: hidden;
   background: #ebebeb;
 }
+
 a {
   text-decoration: none;
 }
+
 img {
   display: block;
   max-width: 100%;
 }
+
 button {
   all: unset;
   cursor: pointer;
 }
+
 li,
 ul {
   list-style: none;
@@ -101,6 +105,7 @@ li a:hover::after {
   opacity: 1;
   transition: all 0.3s linear;
 }
+
 /* Navbar end */
 
 /* Call start */
@@ -149,16 +154,19 @@ li a:hover::after {
 .why-us {
   padding: 6rem 0;
 }
+
 .sec-heading {
   color: var(--primary-color);
   font-weight: 600;
   font-size: 2.8rem;
 }
+
 .sec-p {
   color: var(--primary-color);
   font-size: 2rem;
   font-weight: 300;
 }
+
 .w-90 {
   width: 90%;
   margin: 0 auto;
@@ -223,9 +231,11 @@ li a:hover::after {
 .grid {
   display: grid;
 }
+
 .grid-col-2 {
   grid-template-columns: repeat(2, 1fr);
 }
+
 .gap-1 {
   gap: 1rem !important;
 }
@@ -253,17 +263,24 @@ li a:hover::after {
   font-weight: 500;
   padding: 1.7;
 }
-.accordion {
+
+.accordion.specific {
   background: var(--secondary-color);
   overflow: hidden;
+  margin: auto;
+  width: 80%;
+  margin-top: 2rem;
 }
+
 .accordion-button {
   font-size: 3rem;
   color: #dcc966;
 }
+
 .accordion-body {
   font-size: 2rem;
 }
+
 .accordion-button::after {
   position: absolute;
   right: 4rem;
@@ -312,17 +329,21 @@ li a:hover::after {
   font-size: 2.5rem;
   animation: blink 1s linear infinite alternate;
 }
+
 @keyframes blink {
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 0.5;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 /* hero end */
 
 /* Information start */
@@ -342,10 +363,12 @@ li a:hover::after {
 .info-section div {
   margin-bottom: 2rem;
 }
+
 .p-bolder {
   font-weight: 500;
 }
-.info-section > * {
+
+.info-section>* {
   width: 60%;
 }
 
@@ -394,6 +417,7 @@ li a:hover::after {
   width: 70%;
   padding: 3rem 2rem;
 }
+
 .register-sec .right,
 .register-sec .left {
   display: flex;
@@ -404,6 +428,7 @@ li a:hover::after {
 .register-sec .right {
   align-items: center;
 }
+
 .register-sec .left {
   padding-left: 3rem;
 }
@@ -431,6 +456,7 @@ li a:hover::after {
   justify-content: space-between;
   align-items: center;
 }
+
 .last-reg p {
   font-size: 1.6rem;
 }
@@ -461,15 +487,18 @@ footer {
 .footer-div {
   color: #fff;
 }
+
 .footer-div li {
   font-size: 1.4rem;
   font-weight: 500;
   color: #fff;
   margin-bottom: 1rem;
 }
+
 .footer-div li i {
   margin-right: 1.5rem;
 }
+
 .footer-h3 {
   color: #cccc66;
   font-size: 1.8rem;
@@ -482,6 +511,7 @@ footer {
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
+
 .footer-div .input-email input {
   color: #b5b5b5;
   font-size: 1.5rem;
@@ -491,9 +521,11 @@ footer {
   background: transparent;
   width: 100%;
 }
+
 .input-email {
   position: relative;
 }
+
 .input-email i {
   position: absolute;
   right: 1rem;
@@ -501,6 +533,7 @@ footer {
   cursor: pointer;
   top: 1.3rem;
 }
+
 /* footer ends */
 
 /* testimonial start */
@@ -563,11 +596,13 @@ footer {
   font-size: 1.6rem;
   font-weight: 400;
 }
+
 .slider {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 2rem;
 }
+
 .slider p {
   margin-bottom: 2rem;
 }
@@ -575,9 +610,11 @@ footer {
 .about-image i {
   color: #ffd33c;
 }
+
 .box .left-column .testi_heading span {
   color: #fff;
 }
+
 .box .testi_heading span {
   color: #212121;
 }
@@ -621,6 +658,7 @@ footer {
 .line {
   position: relative;
 }
+
 .line::before {
   content: "";
   position: absolute;
@@ -635,7 +673,9 @@ footer {
 .boxes .fancy p {
   font-size: 1.4rem;
 }
+
 .testimonial {
   padding: 1rem;
 }
+
 /* testimonial end */

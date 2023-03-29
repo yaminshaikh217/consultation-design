@@ -21,7 +21,7 @@ const Hero = () => {
                                 <input type="phone" placeholder=" Phone Number" />
                             </div>
                             <div className="last-reg">
-                                <p>"We will never share your personal info"</p>
+                                {/* <p>"We will never share your personal info"</p> */}
                                 <button className="btn">Connect</button>
                             </div>
                         </form>

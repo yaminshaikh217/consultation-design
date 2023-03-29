@@ -14,51 +14,50 @@ const Aboutus = () => {
                         </p>
                     </div>
                     <div className="card-container">
-                        <div className=" grid grid-col-2 gap-1">
-                            <div className="card">
-                                <i class="fa-solid fa-pen-fancy Icon"></i>
-                                <h3>Education Planning</h3>
-                                <p className="sec-p">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                                    inventore voluptas modi quae porro. Expedita consequuntur nisi
-                                    ipsum quas id.
-                                </p>
-                                <button className="Read-btn">Read More</button>
-                            </div>
-                            <div className="card">
-                                <i class="fa-regular fa-calendar-days Icon"></i>
-                                <h3>Retirement Planning</h3>
-                                <p className="sec-p">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                                    inventore voluptas modi quae porro. Expedita consequuntur nisi
-                                    ipsum quas id.
-                                </p>
-                                <button className="Read-btn">Read More</button>
-                            </div>
-                            <div className="card">
-                                <i class="fa-sharp fa-solid fa-circle-dollar-to-slot Icon"></i>
-                                <h3>Annuities</h3>
-                                <p className="sec-p">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                                    inventore voluptas modi quae porro. Expedita consequuntur nisi
-                                    ipsum quas id.
-                                </p>
-                                <button className="Read-btn">Read More</button>
-                            </div>
-                            <div className="card">
-                                <i class="fa-solid fa-pen-fancy Icon"></i>
-                                <h3>Education Planning</h3>
-                                <p className="sec-p">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                                    inventore voluptas modi quae porro. Expedita consequuntur nisi
-                                    ipsum quas id.
-                                </p>
-                                <button className="Read-btn">Read More</button>
-                            </div>
+                        <div className="card">
+                            <i class="fa-solid fa-pen-fancy Icon"></i>
+                            <h3>Education Planning</h3>
+                            <p className="sec-p">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                                inventore voluptas modi quae porro. Expedita consequuntur nisi
+                                ipsum quas id.
+                            </p>
+                            <button className="Read-btn">Read More</button>
                         </div>
-                        <div className=" accordion">
-                            <Accordian />
+                        <div className="card">
+                            <i class="fa-regular fa-calendar-days Icon"></i>
+                            <h3>Retirement Planning</h3>
+                            <p className="sec-p">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                                inventore voluptas modi quae porro. Expedita consequuntur nisi
+                                ipsum quas id.
+                            </p>
+                            <button className="Read-btn">Read More</button>
                         </div>
+                        <div className="card">
+                            <i class="fa-sharp fa-solid fa-circle-dollar-to-slot Icon"></i>
+                            <h3>Annuities</h3>
+                            <p className="sec-p">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                                inventore voluptas modi quae porro. Expedita consequuntur nisi
+                                ipsum quas id.
+                            </p>
+                            <button className="Read-btn">Read More</button>
+                        </div>
+                        <div className="card">
+                            <i class="fa-solid fa-pen-fancy Icon"></i>
+                            <h3>Education Planning</h3>
+                            <p className="sec-p">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                                inventore voluptas modi quae porro. Expedita consequuntur nisi
+                                ipsum quas id.
+                            </p>
+                            <button className="Read-btn">Read More</button>
+                        </div>
+
+                    </div>
+                    <div className="accordion specific">
+                        <Accordian />
                     </div>
                 </div>
             </section>
