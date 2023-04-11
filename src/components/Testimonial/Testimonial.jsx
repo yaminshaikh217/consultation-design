@@ -23,7 +23,7 @@ const Testimonial = () => {
                     </div>
 
                     <div className="right-column">
-                        <h3 className="testi_heading"> Our Success <span>Stories</span></h3>
+                        <h3 className="testi_heading"> <span>Why</span> Us?</h3>
                         <p>Dummy text of the printing and typesetting industry orhas been the industry's standard unknown printa galley.</p>
                         <div className="line">
                             <div className="boxes">

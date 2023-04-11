@@ -5,7 +5,9 @@ const Information = () => {
     return (
         <>
             <section className="info-section">
-                <h3 className="sec-heading"> Who We Are </h3>
+                <h3 className="sec-heading"> We Teach People How To
+                    Conquer Your Financial Future
+                </h3>
                 <div>
                     <p className="sec-p p-bolder">The Rule of 72</p>
                     <p className="sec-p">A basic priciple on how money doubles over time </p>

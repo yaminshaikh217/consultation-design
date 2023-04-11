@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Ubuntu&display=swap");
 
 :root {
-  --primary-color: #000;
+  --primary-color: #540E4A;
   --secondary-color: #fff;
 }
 
@@ -53,13 +53,15 @@ header {
   justify-content: space-between;
   /* padding: 0.5rem 0.5rem; */
   /* width: 90%; */
-  margin: auto;
-  position: sticky;
-  top: 0;
+  /* margin: auto; */
+  position: fixed;
   background: rgba(54, 54, 54, 0.6);
   backdrop-filter: blur(3px);
   padding: 0 2rem;
   z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo {
@@ -142,10 +144,11 @@ li a:hover::after {
 .btn {
   padding: 0.5rem 1rem;
   cursor: pointer;
-  background-color: #fff;
   font-size: 2.4rem;
   font-weight: 500;
   border-radius: 0.5rem;
+  color: #fff;
+  background: #540E4A;
 }
 
 /* Request and consaltation end */
@@ -188,7 +191,7 @@ li a:hover::after {
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 2rem;
   margin: auto;
   width: 80%;
@@ -217,6 +220,14 @@ li a:hover::after {
   transition: all 0.1s linear;
 }
 
+
+.card>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .Read-btn {
   padding: 0.5rem 1rem;
   cursor: pointer;
@@ -242,13 +253,23 @@ li a:hover::after {
 
 .card {
   background: #fff;
-  padding: 3rem 0;
   color: #000;
   text-align: center;
   font-size: 4rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   align-items: center;
+  display: grid;
+  grid-template-columns: 80% 1fr;
+  padding: 3rem;
+}
+
+.card-2 {
+  grid-template-columns: 1fr 75%;
+}
+
+.card.d-block {
+  padding: 3rem 0;
 }
 
 .card p {
@@ -292,7 +313,8 @@ li a:hover::after {
 
 .hero {
   min-height: 100vh;
-  background: url("./assets/hero.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    linear-gradient(180deg, rgba(12, 11, 74, 0.1) -4.35%, rgba(84, 14, 74, 0.1) 64.38%, rgba(255, 180, 247, 0.1) 93.16%, rgba(120, 164, 230, 0.2) 98.23%), url("./assets/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -349,11 +371,12 @@ li a:hover::after {
 /* Information start */
 
 .info-section {
-  background-color: #d9d9d9;
+  background: linear-gradient(176.9deg, rgba(255, 180, 247, 0.34) -28.26%, rgba(252, 229, 250, 0) 97.43%);
   min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 3rem 0;
   padding-left: 10rem;
   gap: 2rem;
   position: relative;
@@ -462,7 +485,7 @@ li a:hover::after {
 }
 
 .last-reg button {
-  background: #cccc66;
+  background: #540E4A;
   font-size: 1.8rem;
 }
 
@@ -471,7 +494,7 @@ li a:hover::after {
 /* footer start  */
 
 footer {
-  background-color: #3e4551;
+  background-color: #242440;
 }
 
 .footer-container {
@@ -559,7 +582,7 @@ footer {
 .box .testi_heading {
   font-size: 2.8rem;
   font-weight: 600;
-  color: #dcc966;
+  color: var(--primary-color);
   position: relative;
   margin-bottom: 5rem;
 }
@@ -570,7 +593,7 @@ footer {
   bottom: 0;
   left: 0;
   height: 4px;
-  width: 10%;
+  width: 6%;
   background: #dcc966;
 }
 
@@ -615,9 +638,6 @@ footer {
   color: #fff;
 }
 
-.box .testi_heading span {
-  color: #212121;
-}
 
 .boxes {
   display: grid;

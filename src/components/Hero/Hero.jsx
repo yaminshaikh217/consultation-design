@@ -10,7 +10,9 @@ const Hero = () => {
                             <button className="cta">Explore Now</button>
                         </div>
                         <form className="form">
-                            <h3 className="reg-now">Connect Now <i class="fa-solid fa-hand-point-down blinking"></i> </h3>
+                            <h3 className="reg-now">Meet & Plan
+                                {/* <i class="fa-solid fa-hand-point-down blinking"></i> */}
+                            </h3>
                             <div className="input-div">
                                 <input type="text" placeholder=" Your Name" />
                             </div>
