@@ -26,31 +26,32 @@ const Testimonial = () => {
                         <h3 className="testi_heading"> <span>Why</span> Us?</h3>
                         <p>Dummy text of the printing and typesetting industry orhas been the industry's standard unknown printa galley.</p>
                         <div className="line">
+                            {/* <div className="line-abs">
+                                    <img src="public/images/line.png" alt="diamond" />
+                                </div> */}
                             <div className="boxes">
-                                <div className="empty"></div>
+                                <div className="empty">
+                                    <img src="public/images/diamond.png" alt="diamond" />
+                                </div>
+
                                 <div className="fancy">
-                                    <div>
-                                        <img src={testimonial} alt="human" />
-                                    </div>
-                                    <p>Dummy text of the print and typesettg industry industry.</p>
+                                    <p>World-Class Quality</p>
                                 </div>
                             </div>
                             <div className="boxes">
-                                <div className="empty"></div>
+                                <div className="empty">
+                                    <img src="public/images/bulb.png" alt="bulb" />
+                                </div>
                                 <div className="fancy">
-                                    <div>
-                                        <img src={testimonial} alt="human" />
-                                    </div>
-                                    <p>Dummy text of the print and typesettg industry industry.</p>
+                                    <p>Expert Strategic Planning</p>
                                 </div>
                             </div>
                             <div className="boxes">
-                                <div className="empty"></div>
+                                <div className="empty">
+                                    <img src="public/images/thumb.png" alt="thumb" />
+                                </div>
                                 <div className="fancy">
-                                    <div>
-                                        <img src={testimonial} alt="human" />
-                                    </div>
-                                    <p>Dummy text of the print and typesettg industry industry.</p>
+                                    <p>Industry-Best Pricing</p>
                                 </div>
                             </div>
                         </div>

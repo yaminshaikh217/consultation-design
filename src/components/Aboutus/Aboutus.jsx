@@ -41,19 +41,21 @@ const Aboutus = () => {
                                 Annuities can help protect your financial future. We understand your need and analyze Financial Gap. A annuity can provide a versatile plan for the unpredictable future.
                             </p>
                             <h3>We offer flexible annuity products:</h3>
-                            <div className="accordion specific">
+                            <section className="accordion specific">
                                 <Accordian />
-                            </div>
+                            </section>
                         </div>
-                        <div className="card">
-                            <i class="fa-solid fa-pen-fancy Icon"></i>
-                            <h3>Education Planning</h3>
-                            <p className="sec-p">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                                inventore voluptas modi quae porro. Expedita consequuntur nisi
-                                ipsum quas id.
-                            </p>
-                            <button className="Read-btn">Read More</button>
+                        <div className="card-cont-col-2">
+                            <div className="card d-flex justify-content-center align-align-items-center">
+                                <div><img src="public/images/roll.svg" alt="roll" /></div>
+                                <h3>401k Rollover Plan</h3>
+
+                            </div>
+                            <div className="card d-flex justify-content-center align-align-items-center">
+                                <div><img src="public/images/education.svg" alt="education" /></div>
+                                <h3>Education Planning</h3>
+
+                            </div>
                         </div>
 
                     </div>
