@@ -108,6 +108,10 @@ li a:hover::after {
   transition: all 0.3s linear;
 }
 
+li a:hover {
+  color: #fff;
+}
+
 /* Navbar end */
 
 /* Call start */
@@ -338,6 +342,7 @@ li a:hover::after {
   border-radius: 5px;
   padding: 2rem 4rem;
   color: #f5f5f5;
+  cursor: auto !important;
 }
 
 .hero h1 {

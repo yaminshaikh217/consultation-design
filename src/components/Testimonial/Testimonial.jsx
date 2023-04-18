@@ -7,7 +7,7 @@ const Testimonial = () => {
                 <div className="box">
                     <div className="left-column">
                         <h3 className="testi_heading">Our Testimonial <span>Pro</span></h3>
-                        <p>Dummy text of the printing and typesetting industry orhas been the industry's standard unknown printa galley.</p>
+                        {/* <p>Dummy text of the printing and typesetting industry orhas been the industry's standard unknown printa galley.</p> */}
                         <div className="slider">
                             <div className="image">
                                 <img src={testimonial} alt="human" />
@@ -24,7 +24,7 @@ const Testimonial = () => {
 
                     <div className="right-column">
                         <h3 className="testi_heading"> <span>Why</span> Us?</h3>
-                        <p>Dummy text of the printing and typesetting industry orhas been the industry's standard unknown printa galley.</p>
+                        {/* <p>Dummy text of the printing and typesetting industry orhas been the industry's standard unknown printa galley.</p> */}
                         <div className="line">
                             {/* <div className="line-abs">
                                     <img src="public/images/line.png" alt="diamond" />

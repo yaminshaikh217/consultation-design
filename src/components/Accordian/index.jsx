@@ -21,7 +21,7 @@ const Accordian = () => {
                             MYGA
                         </button>
                     </h2>
-                    <div id="collapseTwo" className="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div id="collapseTwo" className="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                         A Multiyear Guaranteed Annuity,guarantees an interest rate for the time period seleted when you open your contract.
                         </div>
@@ -33,7 +33,7 @@ const Accordian = () => {
                             SPIA
                         </button>
                     </h2>
-                    <div id="collapseThree" className="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div id="collapseThree" className="accordion-collapse collapse " aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                         A Single Preeimum Indexed Annuities can provide guaranteed income for life or over a set period.
                         </div>
